@@ -14,6 +14,7 @@ En caso contrario, debe continuar su búsqueda. Por último, una vez se ha ident
 - ROS
 - OpenCV
 - TensorFlow
+- Archivo con los pesos de YOLOv3 'yolov3.weights'
 
 ## USO
 
