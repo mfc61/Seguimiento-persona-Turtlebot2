@@ -24,7 +24,7 @@ echo "ROS_HOSTNAME=LA_IP_DE_TU_PC" >> ~/.bashrc
 ssh turtlebot@ip_del_robot
 ```
 
-2. Poner en marcha los diferentes motores y sensores del robot:
+2. Poner en marcha los diferentes motores y sensores del robot
 ```bash
 # Base del robot
 roslaunch turtlebot_bringup minimal.launch
@@ -50,7 +50,7 @@ rosrun rviz rviz
 rosrun tutlebot_tracking track_Luis.py
 ```
 
-## IDENTIFICAR A OTRA PERSONAS
+## IDENTIFICAR A OTRAS PERSONAS
 Para este proyecto, se ha entrenado una red neuronal para lograr identificar a una persona en concreto, en este caso Luis.
 Si se quisiera identificar a otra persona, se tendría que recopilar una gran cantidad de imágenes tanto de la persona a identificar como de otras personas, así como etiquetarlas debidamente.
 
