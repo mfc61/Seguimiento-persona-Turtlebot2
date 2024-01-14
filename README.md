@@ -55,4 +55,4 @@ rosrun tutlebot_tracking track_Luis.py
 Para este proyecto, se ha entrenado una red neuronal para lograr identificar a una persona en concreto, en este caso Luis.
 Si se quisiera identificar a otra persona, se tendría que recopilar una gran cantidad de imágenes tanto de la persona a identificar como de otras personas, así como etiquetarlas debidamente.
 
-En el caso del proyecto, se utilizaron los ficheros 'train_luis.py' y 'train_luis2.py', junto con el archivo con las imágenes etiquetadas 'train.txt', para la obtención del modelo 'modelo_luis.h5'.
+En el caso del proyecto, se utilizaron los ficheros 'train_luis_adam.py', 'train_luis.py' y 'train_luis2.py', junto con el archivo con las imágenes etiquetadas 'train.txt', para la obtención del modelo 'modelo_luis.h5'.
